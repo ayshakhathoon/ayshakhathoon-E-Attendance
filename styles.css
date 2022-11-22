@@ -1,0 +1,84 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins','sans-serif';
+ }
+ body{
+    min-height: 100vh;
+
+ }
+ a{
+    text-decoration: none;
+ }
+ li{
+    list-style: none;
+ }
+ h1,h2{
+    color:#444;
+
+ }
+ .side-menu{
+    position:fixed;
+    background: rgb(27, 197, 75);
+    width: 20vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+ }
+ .side-menu .brand-name{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .side-menu li{
+
+    font-size: 24px;
+    padding: 10px 40px;
+    color: white;
+    align-items: center;
+ }
+ .side-menu ul li:hover{
+    background: rgb(220, 43, 43);
+    color: rgb(163, 40, 40);
+
+ }
+ .sub-menu-1{
+    display: none;
+ }
+
+
+ 
+
+ .side-menu ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background: rgb(122, 14, 14);
+    margin-top: 15px;
+    margin-left: -15px;
+ }
+ .side-menu ul li:hover  .sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+
+ }
+ .side-menu ul li:hover  .sub-menu-1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+ }
+
+
+
+
+
+
+
+ 
+
+
+ 
